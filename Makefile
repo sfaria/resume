@@ -20,3 +20,5 @@ coverletter.pdf: coverletter.tex
 
 clean:
 	rm -rf $(OUTPUT_DIR)/*.pdf
+	rm -rf ${OUTPUT_DIR}/*.aux
+	rm -rf ${OUTPUT_DIR}/*.log
