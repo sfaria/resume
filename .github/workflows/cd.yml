@@ -1,4 +1,4 @@
-name: Compile Resume PDF and create release, if tagged
+name: Compile Resume PDF
 
 on:
     push:
@@ -24,7 +24,7 @@ jobs:
     
     - name: Check build output
       run: |
-        if [ -z "$(find dest -name '*.pdf')" ]; then
+        if [ -z "$(find dist/ -name '*.pdf')" ]; then
           echo "Build failed: No PDF found in dest directory"
           exit 1
         fi
