@@ -25,7 +25,7 @@ jobs:
     - name: Check build output
       run: |
         if [ -z "$(find dist/ -name '*.pdf')" ]; then
-          echo "Build failed: No PDF found in dest directory"
+          echo "Build failed: No PDF found in dist directory"
           exit 1
         fi
 
@@ -33,4 +33,4 @@ jobs:
       uses: softprops/action-gh-release@v2
       if: startsWith(github.ref, 'refs/tags/')
       with:
-        files: dest/*
+        files: dist/*
