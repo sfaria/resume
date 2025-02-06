@@ -10,7 +10,7 @@ on:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-    container: texlive/texlive:latest
+    container: thomasweise/texlive:latest
     
     steps:
     - name: Checkout code
