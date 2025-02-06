@@ -3,7 +3,6 @@
 %-------------------------------------------------------------------------------
 \cvsection{Work Experience}
 
-
 %-------------------------------------------------------------------------------
 %	CONTENT
 %-------------------------------------------------------------------------------
@@ -11,115 +10,105 @@
 
 %---------------------------------------------------------
   \cventry
-    {DevOps Engineer} % Job title
-    {Dunamu Inc.} % Organization
-    {Seoul, S.Korea} % Location
-    {Sep. 2023 - Present} % Date(s)
-    {
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Founding Member \& Site Reliability Engineer \& Infrastructure Team Lead} % Job title
-    {Danggeun Pay Inc. (KarrotPay)} % Organization
-    {Seoul, S.Korea} % Location
-    {Mar. 2021 - Jun. 2023} % Date(s)
+    {Senior Software Engineer} % Job title
+    {AutoScout24} % Organization
+    {Berlin, Germany} % Location
+    {Apr. 2024 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Everything that matters.}
-        \item {Designed and provisioned the entire infrastructure on the AWS cloud to meet security compliance and acquire a business license for financial services in Korea.}
-        \item {Continuously improved the infrastructure architecture since launching the service. (currently 3.6 million users)}
-        \item {Established a standardized base for declarative management of infrastructures and service deployments, enabling operational efficiency and consistency. Over 90\% of AWS resources were all managed through standardized terraform modules. All add-ons and service workloads on the Kubernetes cluster were managed on a GitOps basis with Kustomize and ArgoCD.}
-        \item {Saved over 30\% of the overall AWS costs by establishing a quarterly purchasing strategiy for RI (Reserved Instance) and SP (Savings Plan) and by introducing Graviton instances.}
-        \item {Established a core architecture for regulating of outbound DNS traffic in multi-account and multi-VPC environments utilizing AWS Route53 DNS Firewall and FMS. This significantly increased the level of security confidence in the financial sector's segregated environment.}
-        \item {Introduced Okta employee identity solution in the company, establishing security policies and configuring SSO integration with over 20 enterprise systems including AWS, GitHub, Slack, Google Workspace. Set up a Hub and Spoke architecture, enabling a collaborative account structure with the parent company, Daangn Market.}
+        \item {Senior engineer in AutoScout's Listing Intelligence group, where we ingest, enrich and deliver automobile taxonomy data to the whole of AS24.}
+        \item {Maintain, build and extend existing microservice architecture using Java, Scala, Spring Boot, WebFlux, and Kafka.}
+        \item {Led efforts to promote better engineering practices across teams with the Java Developer Advocate group at AS24.}
+        \item {Mentorship of junior engineers on the Listing Intelligence team.}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
   \cventry
-    {Site Reliability Engineer} % Job title
-    {Danggeun Market Inc.} % Organization
-    {Seoul, S.Korea} % Location
-    {Feb. 2021 - Mar. 2021} % Date(s)
-    {
-    }
+  {Senior Software Engineer} % Job title
+  {AutoScout24 Smyle} % Organization
+  {Berlin, Germany} % Location
+  {Sept. 2023 - Apr. 2024} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {Senior engineer on AutoScout Smyle, the first full-service online used car buying service in Germany.}
+      \item {Built out backend services for dealer and car stock management using Java, Spring Boot, PostgreSQL, Kafka, and SQS.}
+      \item {Led efforts to simplify architecture of stock management system, resulting in overall reduction of incidents and AWS operating costs.}
+    \end{cvitems}
+  }
 
 %---------------------------------------------------------
   \cventry
-    {Founding Member \& Director of Infrastructure Division} % Job title
-    {Kasa} % Organization
-    {Seoul, S.Korea} % Location
-    {Jun. 2018 - Jan. 2021} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Designed on-boarding process to guide new engineers, help them to focus on the right tasks, and set expectations to help them be successful at Infrastructure team.}
-        \item {Migrated the orchestration system from DC/OS to Kubernetes which is based on AWS EKS. Managed 3 Kubernetes clusters and 300+ pods. Managed all Kubernetes manifests declaratively with Kustomize and ArgoCD.}
-        \item {Designed and managed complex network configurations on AWS with 4 VPC and 100+ subnets. Separated the development network and operation network according to financial regulations. Established dedicated network connections from AWS VPC to partners' on-premise network based on AWS Direct Connect with secure connection using IPsec VPN. Provisioned OpenVPN servers with LDAP integration.}
-        \item {Provisioned a observability system with Kafka, Elastic Stack(Filebeat, Heartbeat, APM Server, Logstash, Elasticsearch, Kibana). Collected log, uptime, tracing data from hosts, containers, pods and more. The ES cluster which has 9 nodes processed more than 1 billion documents per month. Wrote Terraform module to easily provision ES cluster on AWS EC2 instances.}
-        \item {Provisioned a monitoring system with Kafka, Telegraf, InfluxDB, Grafana. Collected metrics from hosts, containers, pods and more. Wrote Terraform module to easily provision InfluxDB with HA on AWS EC2 instances.}
-        \item {Introduced Kong API Gateway to easily connect all API microservices with a declarative management method based on Terraform and Atlantis to collaborate and audit change history.}
-        \item {Provisioned the Directory Service for employee identity management based on OpenLDAP which guarantees HA with multi-master replication.}
-        \item {Implemented Worker microservices consuming Kafka event topics for email, SMS, Kakaotalk and Slack notification. Developed in-house framework to easily build Kafka consumer microservice with common features including retry on failure, DLQ(Dead Letter Queue), event routing and more.}
-        \item {Introduced Elastic APM to help distributed tracing, trouble-shooting and performance testing in MSA.}
-      \end{cvitems}
-    }
+  {Senior Software Engineer} % Job title
+  {Shopify} % Organization
+  {Berlin, Germany} % Location
+  {Nov. 2021 - May. 2023} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {Senior engineer on Shop Minis, a platform enabling 3rd party developers to create native extensions in the Shop marketplace app.}
+      \item {Built out back-end infrastructure for APIs using Ruby/Rails/MySQL/GraphQL to allow 3rd party developers to manage and monitor their apps.}
+      \item {Led the development of a system to track the total sales of products ordered through 3rd party integrations, allowing merchants to measure the impact of 3rd party integrations.}
+      \item {Led the development of tools that allowed for easier onboarding of Merchants to our platform and gave them an overview of it’s impact on their store’s views and sales.}
+      \item {Built out analytics dashboards and metrics for both internal monitoring and merchant-facing monitoring using Python, PySpark, Apache Kafka, MySQL, Mode, and React.}
+      \item {Direct support of 3rd party developer partners.}
+    \end{cvitems}
+  }
 
 %---------------------------------------------------------
   \cventry
-    {Software Architect} % Job title
-    {Omnious. Co., Ltd.} % Organization
-    {Seoul, S.Korea} % Location
-    {Jun. 2017 - May. 2018} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Provisioned an easily managable hybrid infrastructure(Amazon AWS + On-premise) utilizing IaC(Infrastructure as Code) tools like Ansible, Packer and Terraform.}
-        \item {Built fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, AWS ECR and Rancher.}
-        \item {Designed an overall service architecture and pipelines of the Machine Learning based Fashion Tagging API SaaS product with the micro-services architecture.}
-        \item {Implemented several API microservices in Node.js Koa and in the serverless AWS Lambda functions.}
-        \item {Deployed a centralized logging environment(ELK, Filebeat, CloudWatch, S3) which gather log data from docker containers and AWS resources.}
-        \item {Deployed a centralized monitoring environment(Grafana, InfluxDB, CollectD) which gather system metrics as well as docker run-time metrics.}
-      \end{cvitems}
-    }
+  {Senior Software Architect} % Job title
+  {Genedata GmbH} % Organization
+  {Munich, Germany} % Location
+  {2020 - Nov. 2021} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {Lead engineer on Genedata Collector, a suite of tools for management, access control and processing of clinical pharmaceutical research data.}
+      \item {Led development, design and architecture of the Profiler Data Lake, a tool for advanced object storage, metadata tagging and access control of large data sets using AWS S3, Redshift, and PostgreSQL.}
+      \item {Mentorship and management of 2 junior-level engineering reports.}
+    \end{cvitems}
+  }
 
 %---------------------------------------------------------
   \cventry
-    {Co-founder \& Software Engineer} % Job title
-    {PLAT Corp.} % Organization
-    {Seoul, S.Korea} % Location
-    {Jan. 2016 - Jun. 2017} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Implemented RESTful API server for car rental booking application(CARPLAT in Google Play).}
-        \item {Built and deployed overall service infrastructure utilizing Docker container, CircleCI, and several AWS stack(Including EC2, ECS, Route 53, S3, CloudFront, RDS, ElastiCache, IAM), focusing on high-availability, fault tolerance, and auto-scaling.}
-        \item {Developed an easy-to-use Payment module which connects to major PG(Payment Gateway) companies in Korea.}
-      \end{cvitems}
-    }
+  {Senior Software Engineer} % Job title
+  {Genedata GmbH} % Organization
+  {Munich, Germany} % Location
+  {2016 - 2020} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {Engineer on Genedata Profiler, an enterprise patient profiling and data management tool aimed at the biotech and pharma research market.}
+      \item {Used technologies such as PostgreSQL, Hibernate, Lucene, Java, and SQL to allow the storage and search of large data sets.}
+      \item {Led migration of Oracle/SQL-based codebase to PostgreSQL 9.6/Hibernate, including planning, risk analysis and implementation.}
+      \item {Designed a database-driven system for secure storage of patient profiling data.}
+      \item {Developed data management and permissions systems using Java, Play, Javascript, and React.}
+    \end{cvitems}
+  }
 
 %---------------------------------------------------------
-  \cventry
-    {Software Engineer \& Security Researcher (Compulsory Military Service)} % Job title
-    {R.O.K Cyber Command, MND} % Organization
-    {Seoul, S.Korea} % Location
-    {Aug. 2014 - Apr. 2016} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
-      \end{cvitems}
-    }
+\cventry
+{Software Engineer} % Job title
+{Genedata Inc.} % Organization
+{Lexington, Massachusetts, USA} % Location
+{2010 - 2016} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Engineer on Genedata Analyst, a highly performant, user-friendly enterprise system for multivariate data analysis and visualization on the web and the desktop.}
+    \item {Developed an n-tier application in Java, Swing, and RMI to allow for large-scale data visualization and analysis of data.}
+    \item {Implemented web-based management interface using Java, Play, Ember.js, Javascript, and HTML.}
+  \end{cvitems}
+}
 
-%---------------------------------------------------------
-  \cventry
-    {Software Engineer} % Job title
-    {ShitOne Corp.} % Organization
-    {Seoul, S.Korea} % Location
-    {Dec. 2011 - Feb. 2012} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed a proxy drive smartphone application which connects proxy driver and customer.}
-        \item {Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.}
-      \end{cvitems}
-    }
+\cventry
+{Junior Software Engineer} % Job title
+{Genedata Inc.} % Organization
+{Lexington, Massachusetts, USA} % Location
+{2008 - 2010} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item {Developed custom software extensions for large pharmaceutical and bioresearch companies against Genedata Screener public APIs and services.}
+  \end{cvitems}
+}
+
 
 %---------------------------------------------------------
 \end{cventries}
